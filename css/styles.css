@@ -1,0 +1,1065 @@
+/*----------standard elements--------*/
+
+
+html{
+  margin:0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #def4f0;
+  color: #9a1f40;
+  height: 100%;
+
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+hr
+{
+  width: 5%;
+  border-width: 7px;
+  border-style: dotted none none;
+  border-color: #9a1f40;
+  margin: 60px auto 60px auto;
+}
+
+
+
+/*---------------------------------------------------------name and tag--------------------------------------------*/
+
+
+
+  .name-tag{
+    position: relative;
+    margin: 0;
+    height: 100%;
+  }
+
+  .name-tag-container{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    /* border: 30px solid #ffc7c7; */
+    top:9%;
+     right: 10%;
+     left: 10%;
+    background:white;
+    box-shadow: 11px 21px 42px -9px rgba(0,0,0,0.64);
+    border-radius: 2%;
+  }
+
+  .name-tag-name-container{
+    position: absolute;
+    width: 49.9%;
+    height: 100%;
+  }
+
+  .name-and-tag{
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    left: 10%;
+    text-align:left;
+    font-size: 50px;
+    color: #9a1f40;
+  }
+
+  .name{
+    font-family: 'Sacramento', cursive;
+    font-size: 250%;
+    font-weight: bold;
+  }
+
+  .tag-name{
+    margin-top: 5%;
+    font-size: 80%;
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+  .name-tag-image-container{
+    position: absolute;
+    width: 49.9%;
+    height: 100%;
+    right: 0;
+  }
+
+  .name-tag-image-lg{
+    position: absolute;
+    height: 100%;
+    width:110%;
+    bottom: 0;
+    right: 0;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222); */
+
+    /* box-shadow: 11px 21px 42px -9px rgba(0,0,0,0.64); */
+  }
+
+  .name-tag-image-sm{
+    display: none;
+  }
+
+
+
+  @media screen and (max-width: 600px)
+  {
+
+
+    .name-tag-container{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      border: none;
+      top:0;
+      left: 0;
+      background:#def4f0;
+    }
+
+
+    .name-tag-image-container{
+      position: absolute;
+      width: 100%;
+      height: 49.9%;
+      right: 0;
+    }
+
+    .name-tag-image-sm{
+      position: absolute;
+      height: 80%;
+      width:70%;
+      bottom: 0;
+      top: auto;
+      right: 13%;
+      display: block;
+
+    }
+
+    .name-tag-image-lg{
+      display: none;
+    }
+
+    .name-tag-name-container{
+      position: absolute;
+      width: 100%;
+      height: 49.9%;
+      bottom:0;
+    }
+
+
+    .name-and-tag{
+      position: absolute;
+      align-items: center;
+      top: 13%;
+      left: 0;
+      text-align:center;
+      font-size: 30px;
+      color: #9a1f40;
+    }
+
+  }
+
+
+
+/*----------------------------------------------End of Name and Tag name------------------------------------------------------------------*/
+
+.hr-after-name{
+  margin-top: auto;
+}
+
+
+/*-------------------------------------------Career statement----------------------------------------------------*/
+#section-two{
+  text-align: center;
+}
+
+#icon-para{
+height: 400px;
+margin-top: 50px;
+/* border: 1px solid black; */
+}
+
+.span-career-stamt-ltr-C{
+  font-size: 50px;
+}
+
+.span-career-stamt-ltr-T{
+  font-size: 50px;
+}
+
+#career-stmt-icon{
+
+  height: 150px;
+  width: 150px;
+  margin: auto 50px auto 50px;
+  /* border: 1px solid black; */
+}
+
+.career-stmt-para{
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+
+@media screen and (max-width: 600px){
+  .career-stmt-para{
+    text-align: justify,center;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  #career-title{
+    font-size: 22px;
+  }
+
+  .career-stmt-para{
+    text-align: inherit;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+}
+
+
+
+/*----------------------------------------------End of Career statement------------------------------------------------------------------*/
+
+
+
+
+
+/*---------------------education---------------------------*/
+
+
+.education{
+  text-align: center;
+}
+
+
+
+
+.h-career-stmt{
+  /* transition: all 1.3s ease-out;
+  /* transform: translateX(700px); */
+  /* opacity: 0; */
+  display: inline-block;
+}
+
+
+.h-career-stmt.side-in{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+
+
+
+#education-icon{
+
+  height: 150px;
+  width: 150px;
+  margin: 50px auto 50px auto;
+}
+
+
+
+.h-career-stmt{
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 30px;
+}
+
+
+
+.container.education{
+  width: 1200px;
+  height: 300px;
+position: absolute;
+top: 65px;
+left: 20px;
+
+}
+
+#name-image{
+  margin-bottom: 20px;
+}
+
+
+
+
+.interest{
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  position: relative;
+  margin: auto 50px auto 50px;
+  padding-top: 50px;
+}
+.education-tab {
+  position: relative;
+  overflow: hidden;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(162.49deg, #00CDE2 0%, #009FC1 100%);
+  width: 75em;
+  height: 600px;
+  border-radius: 10px;
+
+
+}
+
+
+.education-tab button {
+  background-color: inherit;
+  float: left;
+  cursor: pointer;
+  height: 10em;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 23.5em;
+  text-align: center;
+  border: none;
+  color :white;
+
+
+}
+
+
+.education-tabcontent2 {
+  display: none;
+  border-top: none;
+  position: absolute;
+  width: 74.8em;
+  text-align: center;
+  top: 13em;
+
+}
+
+
+.table{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+ .education-tabcontent1 {
+  position: absolute;
+  text-align: center;
+}
+
+.education-tab-round{
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 3px solid white;
+}
+
+
+.education-triangle-down {
+  position: relative;
+	width: 0;
+	height: 0;
+  top: -28px;
+  margin-left: auto;
+  margin-right: auto;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid transparent;
+
+}
+
+.education-tab button.active>.education-tab-round {
+  background-color:white;
+}
+
+
+.education-tab button.active>.education-triangle-down {
+  border-top: 30px solid #def4f0;
+}
+
+
+.education-down-arrow{
+  display: none;
+}
+
+
+@media screen and (max-width: 600px)
+{
+
+
+
+  .education-tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    height: auto;
+  }
+
+
+  .education-tab {
+     position:static !important;
+     float: left;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+     width: 100%;
+     height: auto;
+  }
+
+  .education-tabcontent2 {
+    position:static !important;
+      float: left;
+      padding: 0px 12px;
+      border: 1px solid #ccc;
+      height: auto;
+      width: auto;
+      border-left: none;
+      height: auto;
+  }
+
+.education-down-arrow{
+  height: 15px;
+  width: 20px;
+  display: inline-block;
+  float: right;
+}
+  .education-tabcontent1 {
+   position:static !important;
+    background: inherit;
+  }
+
+  .education-tab-round{
+
+    display: none;
+  }
+
+  .education-triangle-down{
+    display: none;
+  }
+
+  .table{
+    font-size: 15px;
+  }
+}
+
+/*----------------End of Education-------------------------*/
+
+
+
+/*----------------Experience-------------------------------*/
+
+
+
+
+.experience-title{
+  text-align: center;
+}
+
+.experience-icon{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+
+}
+
+.experience-icon-image{
+  height: 150px;
+  width: 150px;
+}
+
+
+#experience-row{
+  width: 100%;
+  height: 600px;
+  margin: 0;
+}
+
+
+.experience-content-box{
+  position: relative;
+  height: auto;
+  width: 20%;
+  height: 100%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  color: white;
+
+}
+
+.experience-heading{
+  position: absolute;
+  height:20%;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  transition: all 1s;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.experience-heading::after{
+  width: 50px;
+  height: 2px;
+  background: white;
+  top: 5px;
+}
+
+.experience-image{
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+
+
+.experience-content{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 60%;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 20px;
+}
+
+.experience-content-box:hover>.experience-heading
+{
+height: 100%;
+}
+
+.experience-content-box:hover>.experience-content
+{
+opacity: 1;
+}
+
+
+ @media screen and (max-width: 600px)
+{
+
+  #experience-row{
+    width: 100%;
+    margin: 0;
+    height: 2000px;
+  }
+
+
+  .experience-content-box{
+    position: relative;
+    height: auto;
+    width: 70%;
+    height: 22%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    display: inline-block;
+  }
+
+  .experience-content{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 70%;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 17px;
+  }
+}
+
+
+/*----------------------End of Experience--------------------------------------------*/
+
+/*---interests-----------------------------------------------------------------------------*/
+
+.intrests{
+  text-align: center;
+}
+
+
+#interest-container{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+}
+
+
+.yoga-icon,.Language-icon,.Music-icon,.Gardening-icon{
+  height: 40%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20%;
+}
+
+@media screen and (max-width: 600px){
+  #interest-container{
+    margin: 0;
+    width: 100%;
+    height: 500px;
+  }
+
+  #interest-icon-container-one,#interest-icon-container-two,#interest-icon-container-three,#interest-icon-container-four{
+    height: 40%;
+    width: 40%;
+    margin: 5%;
+  }
+
+  .yoga-icon,.Language-icon,.Music-icon,.Gardening-icon{
+    height: 70%;
+    width: 70%;
+  }
+
+
+}
+
+
+/*---------------------------End of interests-------------------------------*/
+
+
+/*---------------------------Beginning of Personal Deatils------------------------------*/
+
+#personal-details-title{
+  text-align: center;
+  font-size: 30px;
+}
+
+.personal-details {
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+
+.personal-details-straight-line {
+  height: 10px;
+  width: 80%;
+  margin-top: 200px;
+  animation: point-width 12s forwards;
+}
+
+
+
+
+
+.personal-details-DOB {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  color: white;
+  bottom: -200px;
+  left: 5%;
+  animation: background-fade1 1.5s forwards;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+}
+
+.personal-details-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #009FC1;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.personal-details-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #009FC1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal-details-dob-image {
+  margin-top: 20px;
+  height: 75%;
+  width: 70%;
+}
+
+.personal-details-GENDER {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  color: white;
+  bottom: 6px;
+  left: 25%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 2.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+}
+
+.personal-details-gender-image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 26px;
+}
+
+.personal-details-marital-status {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  color: white;
+  bottom: -200px;
+  left: 45%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 3.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+}
+
+.personal-details-marital-image {
+  height: 80%;
+  width: 65%;
+  margin-top: 20px;
+}
+
+.personal-details-nationality {
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  color: white;
+  bottom: 6px;
+  left: 65%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 5.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+}
+
+.personal-details-flag-image {
+  height: 70%;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.personal-details-langauges-known {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  color: white;
+  bottom: -200px;
+  right: 5%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 7.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+}
+
+.personal-details-langauge-image {
+  height: 55%;
+  width: 80%;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+@keyframes background-fade1 {
+  0.0% {
+    opacity: 0;
+  }
+
+  50.0% {
+    opacity: 0;
+  }
+
+  75.0% {
+    opacity: .5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes point-width {
+  0% {
+    width: 0%;
+  }
+
+  8.33%, 16.66% {
+    width: 17%;
+    /* background: #ff3844; */
+    background: linear-gradient(162.49deg, #00CDE2 0%, #009FC1 100%);
+  }
+
+  24.99%, 33.32% {
+    width: 34%;
+    /* background: #ff3844; */
+    background: linear-gradient(162.49deg, #00CDE2 0%, #009FC1 100%);
+  }
+
+  41.65%, 49.98% {
+    width: 53%;
+    /* background: #ff3844; */
+    background: linear-gradient(162.49deg, #00CDE2 0%, #009FC1 100%);
+  }
+
+  58.31%, 66.64% {
+    width: 75%;
+    /* background: #ff3844; */
+    background: linear-gradient(162.49deg, #00CDE2 0%, #009FC1 100%);
+  }
+
+  74.97%, 88.33% {
+    width: 93%;
+    /* background: #ff3844; */
+    background: linear-gradient(162.49deg, #00CDE2 0%, #009FC1 100%);
+  }
+
+  91.63%, 100.00% {
+    width: 100%;
+    /* background: #ff3844; */
+    background: linear-gradient(162.49deg, #00CDE2 0%, #009FC1 100%);
+  }
+}
+
+
+
+
+
+/*-----------perosnal details(width-900)-------------------------*/
+
+
+
+
+.personal-details-straight-line-sm{
+  height: 500px;
+  width: 5px;
+  border: 1px solid #ff3844;
+  animation: point-height 12s forwards ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.personal-details-sm {
+  position: relative;
+  width: 80%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+  margin-top: 50px;
+}
+
+
+.personal-details-DOB-sm {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  color: white;
+  top:  3%;
+  left: 19%;
+  animation: background-fade1 1.5s forwards;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+  /* border: 1px solid black; */
+}
+
+.personal-details-triangle-left {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 14px solid #ff3844;
+	border-bottom: 7px solid transparent;
+  right: 0;
+  top:45%;
+}
+
+.personal-details-GENDER-sm {
+  position: absolute;
+  width: 90px;
+  height: 80px;
+  color: white;
+  bottom: 10px;
+  top: 23%;
+  right: 21.7%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 2.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+  /* border: 1px solid black */
+}
+
+.personal-details-triangle-right {
+  position: relative;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 14px solid #ff3844;
+	border-bottom: 7px solid transparent;
+  top: 40%;
+}
+
+.personal-details-marital-status-sm {
+  position: absolute;
+  width: 95px;
+  height: 125px;
+  color: white;
+  left: 20.5%;
+  top:  38%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 3.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+  /* border: 1px solid black; */
+}
+
+.personal-details-nationality-sm {
+  position: absolute;
+  width: 105px;
+  height: 130px;
+  color: white;
+  /* bottom: 10px; */
+  right: 17.3%;
+  top:58%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 5.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+  /* border: 1px solid black; */
+}
+
+.personal-details-language-known-sm {
+  position: absolute;
+  width: 150px;
+  height: 130px;
+  color: white;
+  top: 76%;
+  left: 4%;
+  animation: background-fade1 2s forwards;
+  animation-delay: 7.5s;
+  text-align: center;
+  border-radius: 5%;
+  opacity: 0;
+  /* border: 1px solid black; */
+}
+
+@keyframes point-height {
+  0% {
+    height:  0%;
+  }
+
+  8.33%, 16.66% {
+    height:  17%;
+    background: #ff3844;
+  }
+
+  24.99%, 33.32% {
+    height:  34%;
+    background: #ff3844;
+  }
+
+  41.65%, 49.98% {
+    height:  53%;
+    background: #ff3844;
+  }
+
+  58.31%, 66.64% {
+    height:  75%;
+    background: #ff3844;
+  }
+
+  74.97%, 88.33% {
+  height: 93%;
+    background: #ff3844;
+  }
+
+  91.63%, 100.00% {
+  height:  100%;
+    background: #ff3844;
+  }
+
+}
+
+
+@media screen and (max-width: 600px){
+  .personal-details-dob-image {
+    height: 70%;
+    width: 65%;
+  }
+
+  .personal-details-gender-image {
+    height: 70%;
+    width: 60%;
+    margin-bottom: 26px;
+  }
+
+  .personal-details-marital-image {
+    height: 80%;
+    width: 65%;
+    margin-top: 20px;
+  }
+
+  .personal-details-flag-image {
+    height: 70%;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .personal-details-langauge-image {
+    height: 55%;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+
+  #personal-details-title{
+    text-align: center;
+    font-size: 25px;
+  }
+
+}
+
+
+/*-------------------End of Perosnal Deatils-----------------------------------------*/
